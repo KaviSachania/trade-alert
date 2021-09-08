@@ -1,0 +1,45 @@
+server:
+    error:
+        include-message: always
+        include-binding-errors: always
+
+spring:
+    profiles:
+        active: @spring.profiles.active@
+    datasource:
+        url: jdbc:postgresql://localhost:5432/cryptoalert
+        username:
+        password:
+        initialization-mode: always
+
+    jpa:
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+                format_sql: true
+                jdbc:
+                    batch_size: 16
+                order_inserts: true
+                generate_statistics: true
+
+    mail:
+        host: localhost
+        port: 1025
+        username: hello
+        password: hello
+
+        properties:
+            mail:
+                smtp:
+                    ssl:
+                        trust: "*"
+                    auth: true
+                    starttls:
+                        enable: true
+                        required: true
+                    connectiontimeout: 5000
+                    timeout: 3000
+                    writetimeout: 5000
+
+email:
+    sender: trade@tradealert.money
