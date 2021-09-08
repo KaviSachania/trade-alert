@@ -14,9 +14,7 @@ Email service and accompanying web application for sending customizable weekly e
 ![demo](tradealert-demo.gif)
 
 
-![demo](Trade Alert Diagram.png)
-
-![demo](Trade Alert Diagram.svg)
+![diagram](tradealert-diagram.jpg)
 
 
 
