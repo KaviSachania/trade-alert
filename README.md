@@ -11,5 +11,13 @@ Email service and accompanying web application for sending customizable weekly e
 
 
 
+![demo]tradealert-demo.gif
+
+
+
+
+
+
+
 
 
