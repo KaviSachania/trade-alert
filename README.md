@@ -1,5 +1,7 @@
 # Trade Alert
 
+Site is live at [tradealert.money](https://tradealert.money/).
+
 Email service and accompanying web application for sending customizable weekly email alerts of stocks that have recently reached a price around a proven support line.
 
 Users can receive weekly email alerts that contain a list of stocks that hit their support line that week. Email alerts can be configured to only include stocks that meet customizable minimum growth, pattern length, and market cap thresholds. Support stocks are added and removed from the web application daily based on their prices provided by the [FinnHub API](https://finnhub.io/).
