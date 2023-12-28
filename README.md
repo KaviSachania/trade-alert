@@ -1,6 +1,6 @@
 # Trade Alert
 
-Site is live at [tradealert.money](https://tradealert.money/).
+Site is live at [tradealert.money](https://tradealert.money/). (no longer live)
 
 Email service and accompanying web application for sending customizable weekly email alerts of stocks that have recently reached a price around a proven support line.
 
